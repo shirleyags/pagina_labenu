@@ -1,0 +1,128 @@
+@media (min-width: 375px){
+
+    .cabecalho{
+        background-color:rgb(253, 125, 2);
+        height: 50px;
+    }
+    .titulo{
+        text-align: center;
+        box-sizing: border-box;
+        padding-top:15px;
+        font-family: 'Montserrat', sans-serif;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        color:#FFFFFF;
+        font-size:22px;
+    }
+    .envolve_logo{
+       display:flex;
+       justify-content: center;
+    }
+    .logo{
+        height: 220px;
+        margin-top: 50px;
+    }
+    .principal{
+        background-color: #7B68EE;
+        padding-bottom: 50px;
+
+    }
+    .cartoes{
+        display:flex;
+        margin-top:30px;
+    }
+    .cartao{
+        width:170px;
+        height: 130px;
+        color:#FFFFFF;
+        font-size:30px;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 10px;
+    }
+    .cartao_mobile{
+        background-color:#3CB371;
+    }
+    .cartao_web{
+        background-color:#1E90FF;
+    }
+    .cartoes_dois{
+        display:flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .cartao_data{
+        background-color:#A52A2A;
+    }
+    p{
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 30px;
+    }
+    .rodape{
+        background-color: #DCDCDC;
+        height: 142px;
+    }
+    .rodape_form{
+        display:flex;
+        justify-content: center;
+        box-sizing: border-box;
+        padding-top:50px;
+    }
+    #email{
+        height: 40px;
+    }
+    .botao{
+        margin-left:-4px;
+        height:45px;
+        width:100px;
+        font-size: 20px;
+        color:#FFFFFF;
+        background-color:#FF4500;
+        border:#FF4500;
+    }
+    .faixaBoasVindas{
+        font-family: 'Oxygen', sans-serif;
+        height: 30px;
+        color:#FFFFFF;
+        font-size: 20px;
+    }
+    .frase_span{
+        float: right;
+        margin-top:30px;
+        margin-right:5px;
+        font-size: 15px;
+        font-family: 'Oxygen', sans-serif;
+        color:#FFFFFF;
+    }
+    }
+    
+    @media (min-width: 720px){
+        .cartoes_telaGrande{
+            display:flex;
+            justify-content: center;
+        }
+        .cartoes_dois{
+            margin-top: 30px;
+        }
+        .rodape{
+            height: 95px;
+        }
+        .rodape_form{
+            box-sizing: border-box;
+            padding-top: 30px;
+        }
+        #email{
+            height: 30px;
+            width: 300px;
+        }
+        .botao{
+            height:35px;
+            font-size: 15px;
+        }
+        .faixaBoasVindas{
+            color:#FFFFFF;
+            font-family: 'Oxygen', sans-serif;
+            height: 30px;
+            font-size: 20px;
+        }
+       
+    }
